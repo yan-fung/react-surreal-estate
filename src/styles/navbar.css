@@ -1,0 +1,40 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar h2 {
+  position: relative;
+  padding-top: 10px;
+}
+
+.navbar img {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.narbar-links-item {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.narbar-links-item li a {
+  display: block;
+  justify-content:center;
+  text-decoration: none;
+  color: black;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 8px;
+}
+  
