@@ -1,22 +1,24 @@
 import React from "react";
-import "../styles/navbar.css";
+import { Link } from "react-router-dom";
 import homeImage from "../styles/images/home.png";
+import "../styles/navbar.css";
 
 const NavBar = () => {
   return (
     <div className="navbar">
       <img src={homeImage} alt="home_image" />
-      <h2>Surreal Estate</h2>
-      <div className="navbar-links">
-        <ul className="narbar-links-item">
-          <li>
-            <a href="#view_property">View Properties</a>
-          </li>
-          <li>
-            <a href="#add_property">Add a Properties</a>
-          </li>
-        </ul>
-      </div>
+      <ul className="navbar-links">
+        <li className="narbar-links-item">
+          <Link className="narbar-links__text" to="/">
+            View Properties
+          </Link>
+        </li>
+        <li className="narbar-links-item">
+          <Link className="narbar-links__text" to="/add_property">
+            Add Properties
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 };
