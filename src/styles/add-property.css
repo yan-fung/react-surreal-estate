@@ -1,7 +1,86 @@
-.property_header {
-    margin: 0 20px;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Sofia+Sans:wght@200&family=Tajawal&display=swap");
+
+.add-property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Tajawal", sans-serif;
+  padding-top: 20px;
+  gap: 1rem;
+}
+
+.form-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 20px;
+  background-color: rgb(253, 251, 249);
+  border-radius: 5px;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.label-header {
+  font-size: 18px;
+  color: rgb(53, 66, 94);
+  padding-top: 10px;
+}
+
+label {
+  height: 30px;
+  padding-right: 10px;
+}
+
+input {
+  font-family: "Tajawal", sans-serif;
+  height: 30px;
+  width: 220px;
+  font-size: 16px;
+  border-color: rgba(39, 38, 38, 0.193);
+  border-radius: 2px;
+  padding-left: 5px;
+}
+
+select {
+  font-family: "Tajawal", sans-serif;
+  height: 36px;
+  width: 135px;
+  font-size: 16px;
+  border-radius: 2px;
+  border-color: rgba(39, 38, 38, 0.193);
+}
   
-  .property_header h1 {
-    color: rgb(207, 60, 138);
-  }
+.add-property h1 {
+  color: rgb(63, 55, 60);
+  font-size: 25px;
+}
+
+.submit-button{
+  background-color:rgba(139, 204, 241, 0.954);
+  font-size: 16px;
+  border-color: rgba(211, 207, 207, 0.421);
+  box-shadow: rgb(255, 255, 255) 1px 1px 2px 2px;
+  color: rgb(13, 13, 13);
+  border-radius: 2px;
+}
+
+.submit-button:hover {
+  background-color:rgb(219, 244, 247);
+  font-size: 17px;
+  border-color: rgba(178, 176, 176, 0.743);
+  box-shadow: rgb(255, 253, 253) 2px 2px 2px 2px;
+  color: rgb(43, 40, 40);
+  border-radius: 2px;
+}
+
+input:hover {
+  border-color: rgb(146, 196, 213);
+}
+
+select:hover {
+  border-color: rgb(146, 196, 213);
+}
