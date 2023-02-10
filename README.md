@@ -1,7 +1,7 @@
 # 🏘️ React Property Search Engine - Surreal Estate
 
 ## Introduction
-- Users are able to search for different propertie.
+- Users are able to search for different properties.
 - Users are able to filter the results by city.
 - Users are able to sort the results by price.
 
