@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Alert component displays a success message 1`] = `
+<DocumentFragment>
+  <div
+    class="alert-success"
+  >
+    <img
+      alt="error"
+      src="error-icon.png"
+      style="height: 30px; width: 30px; background: transparent;"
+    />
+    Success!
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert component displays an error message 1`] = `
+<DocumentFragment>
+  <div
+    class="alert-error"
+  >
+    <img
+      alt="error"
+      src="error-icon.png"
+      style="height: 30px; width: 30px; background: transparent;"
+    />
+    Error!
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Alert component does not render an error or a success message if message props is empty 1`] = `<DocumentFragment />`;
