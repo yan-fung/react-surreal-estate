@@ -1,0 +1,30 @@
+.alert-success {
+    font-family: ;
+    display: flex;
+    flex-direction: row;
+    color: rgb(8, 7, 7);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 40px;
+    align-items: center; 
+}
+
+.alert-success img {
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+
+.alert-error {
+    display: flex;
+    flex-direction: row;
+    color: rgb(8, 7, 7);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 40px;
+    align-items: center; 
+}
+
+.alert-error img {
+    padding-right: 10px;
+    padding-bottom: 4px;
+}

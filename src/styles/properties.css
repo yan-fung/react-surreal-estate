@@ -3,5 +3,13 @@
 }
 
 .property_header h1 {
-  color: rgb(207, 60, 138);
+  color: rgb(224, 180, 204);
+}
+
+.button {
+  padding: 10px;
+  background-color: rgba(230, 161, 177, 0.558);
+  color: rgb(56, 46, 46);
+  font-size: 20px;
+  border-radius: 5px;
 }
