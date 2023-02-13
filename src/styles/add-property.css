@@ -7,6 +7,8 @@
   font-family: "Tajawal", sans-serif;
   padding-top: 20px;
   gap: 1rem;
+  background-color: rgb(253, 251, 251);
+  min-height: 90vh;
 }
 
 .form-container-2 {
@@ -22,14 +24,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: rgba(232, 228, 230, 0.621);
+  background-color: rgba(234, 230, 232, 0.621);
 }
 
 .label-header {
   font-size: 18px;
   color: rgb(53, 66, 94);
   padding-top: 10px;
-  background-color: rgba(232, 228, 230, 0.621);
+  background-color: rgba(234, 230, 232, 0.621);
+  padding-left: 3px;
 }
 
 label {
@@ -59,6 +62,7 @@ select {
 .add-property h1 {
   color: rgb(63, 55, 60);
   font-size: 25px;
+  background-color: rgb(253, 251, 251);
 }
 
 .submit-button{
