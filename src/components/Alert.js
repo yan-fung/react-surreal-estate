@@ -1,7 +1,6 @@
 import React from "react";
 import Proptypes from "prop-types";
 import "../styles/alert.css";
-// import check from "../styles/images/check.png";
 import checkIcon from "../styles/images/check-icon.png";
 import errorIcon from "../styles/images/error-icon.png";
 
