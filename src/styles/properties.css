@@ -1,15 +1,15 @@
+* {
+  background-color: rgb(252, 252, 252);
+}
+
 .property_header {
   margin: 0 20px;
+  
 }
 
 .property_header h1 {
-  color: rgb(224, 180, 204);
+  color: rgb(63, 55, 60);
+  font-size: 25px;
+  padding: 20px 20px;
 }
 
-.button {
-  padding: 10px;
-  background-color: rgba(230, 161, 177, 0.558);
-  color: rgb(56, 46, 46);
-  font-size: 20px;
-  border-radius: 5px;
-}
