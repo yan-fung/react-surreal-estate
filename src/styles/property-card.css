@@ -1,0 +1,47 @@
+.property-card {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+}
+
+.property-card-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 15px 15px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  border: solid rgb(232, 235, 239);
+}
+
+.property-card__logo {
+  background-color:rgb(229, 237, 243);
+  padding: 20px 560px;
+}
+
+.property-card__title {
+  padding: 10px 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.property-card__type__city {
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.property-card_bathrooms {
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.property-card_bedrooms {
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.property-card_price {
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.property-card__email{
+  border-radius: 2px;
+}
