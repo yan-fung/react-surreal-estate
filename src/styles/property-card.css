@@ -7,20 +7,33 @@
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  padding: 15px 15px;
+  padding: 5px 5px;
   background-color: rgb(255, 255, 255);
   align-items: center;
   border: solid rgb(232, 235, 239);
+  flex-wrap: wrap;
 }
 
 .property-card__logo {
-  background-color:rgb(229, 237, 243);
-  padding: 20px 560px;
+  background-color:rgba(204, 229, 238, 0.666);
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.property-card__logo img {
+  border-radius: 8px;
 }
 
 .property-card__title {
   padding: 10px 10px;
   background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(22, 18, 18);
 }
 
 .property-card__type__city {
@@ -44,4 +57,27 @@
 
 .property-card__email{
   border-radius: 2px;
+  background-color:rgba(166, 171, 175, 0.127);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  padding: 6px 0;
+
+}
+
+.icon {
+  padding: 0 5px;
+  color: rgb(81, 195, 195);
+  background-color: transparent;
+}
+
+.icon-price {
+  padding: 0 5px;
+}
+
+.icon-location {
+  padding: 0 5px;
+  color: rgba(228, 16, 90, 0.823);
 }
