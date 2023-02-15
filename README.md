@@ -13,7 +13,7 @@
 git clone https://github.com/yan-fung/react-technical-test.git
 ```
 
-2. To install the package locally:
+2. Install the package locally:
 
 ```bash
 npm install
@@ -25,7 +25,7 @@ npm install
 npm start
 ```
 
-4. To test the codes in tests folder. 
+4. Test the code in tests folder. 
 
 ```bash
 npm test
