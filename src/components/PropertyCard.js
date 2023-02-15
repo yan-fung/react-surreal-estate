@@ -6,6 +6,7 @@ import {
   faBath,
   faSterlingSign,
   faEnvelope,
+  faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 import "../styles/property-card.css";
 import logo from "../styles/images/homelogo.png";
@@ -25,25 +26,29 @@ const PropertyCard = ({
         <div className="property-card__logo">
           <img src={logo} alt="logo" width="30px" height="25px" />
         </div>
-        <div className="property-card__title">{title}Two beds house</div>
+        <div className="property-card__title">{title}</div>
         <div className="property-card__type__city">
+          <FontAwesomeIcon icon={faLocationDot} className="icon-location" />
           {type} - {city}
         </div>
-        <div className="property-card_bathrooms">
-          <FontAwesomeIcon icon={faBath} />
-          {bathrooms} Bathrooms:
+        <div
+          className="property-card_bathrooms"
+          data-testid="property-bathrooms"
+        >
+          <FontAwesomeIcon icon={faBath} className="icon" />
+          Bathrooms: {bathrooms}
         </div>
         <div className="property-card_bedrooms">
-          <FontAwesomeIcon icon={faBed} className="bedIcon" />
-          {bedrooms} Bedrooms:
+          <FontAwesomeIcon icon={faBed} className="icon" />
+          Bedrooms: {bedrooms}
         </div>
         <div className="property-card_price">
-          <FontAwesomeIcon icon={faSterlingSign} />
+          <FontAwesomeIcon icon={faSterlingSign} className="icon-price" />
           {price}
         </div>
         <div className="property-card__email">
-          <FontAwesomeIcon icon={faEnvelope} />
-          {email} Email:
+          <FontAwesomeIcon icon={faEnvelope} className="icon" />
+          Email: {email}
         </div>
       </div>
     </div>
