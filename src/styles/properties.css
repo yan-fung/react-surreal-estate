@@ -4,7 +4,9 @@
 
 .property_header {
   margin: 0 20px;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
 }
 
 .property_header h1 {
@@ -13,3 +15,13 @@
   padding: 20px 20px;
 }
 
+.properties {
+  padding: 0.5rem;
+}
+
+.properties > .item {
+  display: inline-block;
+  width: 33.33%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
