@@ -47,8 +47,10 @@ const PropertyCard = ({
           {price}
         </div>
         <div className="property-card__email">
-          <FontAwesomeIcon icon={faEnvelope} className="icon" />
-          Email: {email}
+          <a href={`mailto:${email}`} className="email">
+            <FontAwesomeIcon icon={faEnvelope} className="icon-email" />
+            Email
+          </a>
         </div>
       </div>
     </div>
