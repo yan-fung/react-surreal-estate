@@ -64,7 +64,6 @@
   justify-items: center;
   justify-content: center;
   padding: 6px 0;
-
 }
 
 .icon {
@@ -80,4 +79,23 @@
 .icon-location {
   padding: 0 5px;
   color: rgba(228, 16, 90, 0.823);
+}
+
+.icon-email {
+  padding: 0 5px;
+  color: rgba(91, 176, 236, 0.823);
+  background-color: transparent;
+}
+
+.email {
+  color: rgb(47, 44, 45);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.email:hover {
+  color: rgb(36, 41, 75);
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 17px;
 }
