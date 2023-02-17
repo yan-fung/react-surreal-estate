@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properties renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="property_header"
+  >
+    <div
+      class="property_container"
+    >
+      <div
+        class="sidebar"
+      >
+        <div
+          class="sidebar"
+        >
+          <div
+            class="sidebar-header"
+          >
+            <h3>
+              Filter by City
+            </h3>
+          </div>
+          <div
+            class="sidebar_city"
+          >
+            <ul>
+              <li>
+                <a
+                  href="/?query={\\"city\\": \\"Manchester\\"}"
+                >
+                  Manchester
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a
+                  href="/?query={\\"city\\": \\"Leeds\\"}"
+                >
+                  Leeds
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a
+                  href="/?query={\\"city\\": \\"Sheffield\\"}"
+                >
+                  Sheffield
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a
+                  href="/?query={\\"city\\": \\"Liverpool\\"}"
+                >
+                  Liverpool
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="properties"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
