@@ -33,15 +33,7 @@ const AddProperty = () => {
           message: "Property added.",
           isSuccess: true,
         });
-        setFields({
-          title: "",
-          city: "Manchester",
-          type: "",
-          bedrooms: 1,
-          bathrooms: 1,
-          price: 0,
-          email: "",
-        });
+        setFields(initialState.fields);
         console.log(res.data);
       })
       .catch((error) => {
