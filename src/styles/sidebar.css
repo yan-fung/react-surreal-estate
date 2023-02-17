@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
+.sidebar-header h3 {
+  margin: 0;
+  color: rgb(117, 46, 68);
+}
+
+.sidebar_city ul li a {
+  color: rgb(70, 34, 42);
+  text-decoration: none;
+}
+
+.sidebar_city ul {
+  list-style-type: none;
+  padding: 5px 0;
+  font-family: "Tajawal", sans-serif;
+}
