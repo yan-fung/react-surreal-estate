@@ -82,7 +82,7 @@
 }
 
 .icon-email {
-  padding: 0 5px;
+  padding: 1px 5px;
   color: rgba(91, 176, 236, 0.823);
   background-color: transparent;
 }
@@ -91,11 +91,14 @@
   color: rgb(47, 44, 45);
   text-decoration: none;
   background-color: transparent;
+  padding-right: 5px;
 }
 
 .email:hover {
-  color: rgb(36, 41, 75);
+  color: rgb(75, 36, 39);
   text-decoration: none;
   background-color: transparent;
   font-size: 17px;
+  box-shadow: rgba(242, 235, 235, 0.781) 1px 1px 2px 2px;
+  border-radius: 5px;
 }
