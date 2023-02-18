@@ -1,11 +1,11 @@
 .navbar {
   margin: 0;
-  padding: 10px 50px;
+  padding: 10px 40px;
   display: grid;
   background-color: rgb(255, 255, 255);
   align-items: center;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 5fr 1fr;
 }
 
 .navbar h2 {
@@ -24,7 +24,7 @@
   padding-top: 10px;
   justify-self: right;
   background-color: rgb(255, 255, 255);
-  
+  padding-right: 10px;
 }
 
 .narbar-links-item {
@@ -37,4 +37,31 @@
   color: rgb(55, 51, 51);
   font-size: 20px;
   background-color: rgb(255, 255, 255);
+}
+
+.narbar-links__text:hover {
+  color:  rgb(45, 146, 160);
+}
+
+.my-facebook-button-class, .sign-out-btn {
+  border-radius: 8px;
+  color: rgb(247, 249, 252);
+  border-color: rgb(37, 109, 201);
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: rgb(37, 109, 201);
+  height: 40px;
+  width: 100%;
+}
+
+.my-facebook-button-class:hover, .sign-out-btn:hover {
+  color: rgb(247, 249, 252);
+  background-color: rgb(57, 125, 215);
+
+}
+
+.fb-icon {
+  font-size: 16px;
+  background-color: transparent;
 }
