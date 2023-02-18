@@ -49,20 +49,46 @@ exports[`App renders app correctly 1`] = `
           <div
             class="sidebar"
           >
+            <form
+              class="search-box"
+            >
+              <input
+                class="search-input"
+                placeholder="Search"
+                type="text"
+                value=""
+              />
+              <button
+                class="button"
+                type="submit"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-magnifying-glass icon-search"
+                  data-icon="magnifying-glass"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+            </form>
             <div
-              class="sidebar-header"
+              class="sidebar_city"
             >
               <h3>
                 Filter by City
               </h3>
-            </div>
-            <div
-              class="sidebar_city"
-            >
               <ul>
                 <li>
                   <a
-                    href="/?query={\\"city\\": \\"Manchester\\"}"
+                    href="/?query={\\"city\\":\\"Manchester\\"}"
                   >
                     Manchester
                   </a>
@@ -71,7 +97,7 @@ exports[`App renders app correctly 1`] = `
               <ul>
                 <li>
                   <a
-                    href="/?query={\\"city\\": \\"Leeds\\"}"
+                    href="/?query={\\"city\\":\\"Leeds\\"}"
                   >
                     Leeds
                   </a>
@@ -80,7 +106,7 @@ exports[`App renders app correctly 1`] = `
               <ul>
                 <li>
                   <a
-                    href="/?query={\\"city\\": \\"Sheffield\\"}"
+                    href="/?query={\\"city\\":\\"Sheffield\\"}"
                   >
                     Sheffield
                   </a>
@@ -89,9 +115,34 @@ exports[`App renders app correctly 1`] = `
               <ul>
                 <li>
                   <a
-                    href="/?query={\\"city\\": \\"Liverpool\\"}"
+                    href="/?query={\\"city\\":\\"Liverpool\\"}"
                   >
                     Liverpool
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="sidebar_sort"
+            >
+              <h3>
+                Sort by
+              </h3>
+              <ul>
+                <li>
+                  <a
+                    href="/?sort={\\"price\\":1}"
+                  >
+                    Price ascending
+                  </a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a
+                    href="/?sort={\\"price\\":-1}"
+                  >
+                    Price descending
                   </a>
                 </li>
               </ul>
