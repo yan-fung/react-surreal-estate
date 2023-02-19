@@ -66,6 +66,10 @@
   padding: 6px 0;
 }
 
+.property-card__save {
+  background-color: transparent;
+}
+
 .icon {
   padding: 0 5px;
   color: rgb(81, 195, 195);
@@ -91,10 +95,35 @@
   color: rgb(47, 44, 45);
   text-decoration: none;
   background-color: transparent;
-  padding-right: 5px;
+  padding-right: 20px;
 }
 
 .email:hover {
+  color: rgb(75, 36, 39);
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 17px;
+  box-shadow: rgba(242, 235, 235, 0.781) 1px 1px 2px 2px;
+  border-radius: 5px;
+}
+
+.icon-save {
+  color: rgb(225, 101, 138);
+  background-color: transparent;
+  font-size: 14px;
+  padding-right: 2px
+}
+
+.save-btn {
+  color: rgb(98, 76, 83);
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "Tajawal", sans-serif;
+  padding-top: 3px;
+}
+
+.save-btn:hover {
   color: rgb(75, 36, 39);
   text-decoration: none;
   background-color: transparent;
