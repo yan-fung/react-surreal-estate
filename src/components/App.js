@@ -6,24 +6,22 @@ import AddProperty from "./AddProperty";
 import "../styles/app.css";
 
 const App = () => {
-  const [userId, setUserId] = useState("");
+  const [userID, setUserID] = useState("");
 
   const handleLogin = (response) => {
-    console.log(response);
-    setUserId(response.userID);
+    setUserID(response.id);
   };
 
   const handleLogout = () => {
-    setUserId("");
     window.FB.logout();
-    console.log("Log out successfully");
+    setUserID("");
   };
 
   return (
     <div className="App">
-      <NavBar onLogin={handleLogin} onLogout={handleLogout} userId={userId} />
+      <NavBar onLogin={handleLogin} onLogout={handleLogout} userID={userID} />
       <Routes>
-        <Route path="/" element={<Properties />} />
+        <Route path="/" element={<Properties userID={userID} />} />
         <Route path="/add_property" element={<AddProperty />} />
       </Routes>
     </div>
