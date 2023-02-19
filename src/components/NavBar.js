@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import homeImage from "../styles/images/home.png";
 import "../styles/navbar.css";
 
-const NavBar = ({ onLogin, onLogout, userId }) => {
+const NavBar = ({ onLogin, onLogout, userID }) => {
   return (
     <div className="navbar">
       <img src={homeImage} alt="home_image" />
@@ -22,7 +22,7 @@ const NavBar = ({ onLogin, onLogout, userId }) => {
           </Link>
         </li>
       </ul>
-      {userId ? (
+      {userID ? (
         <button className="sign-out-btn" type="button" onClick={onLogout}>
           Sign out
         </button>
@@ -31,7 +31,7 @@ const NavBar = ({ onLogin, onLogout, userId }) => {
           <FacebookLogin
             appId="813549316783868"
             callback={onLogin}
-            userId={userId}
+            userID={userID}
             cssClass="my-facebook-button-class"
             icon={<FaFacebookF className="fb-icon" />}
           />
@@ -46,5 +46,5 @@ export default NavBar;
 NavBar.propTypes = {
   onLogin: PropTypes.func.isRequired,
   onLogout: PropTypes.func.isRequired,
-  userId: PropTypes.string.isRequired,
+  userID: PropTypes.string.isRequired,
 };
