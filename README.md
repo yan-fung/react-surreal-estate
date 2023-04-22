@@ -1,5 +1,7 @@
 # 🏘️ React Property Search Engine - Surreal Estate
 
+![surreal-estate](https://user-images.githubusercontent.com/106375522/233756448-f28b29c6-5f4c-41ac-ba4e-5ce58524b320.png)
+
 ## Introduction
 - Users are able to search for different properties.
 - Users are able to filter the results by city.
