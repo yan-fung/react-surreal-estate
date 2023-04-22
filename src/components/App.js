@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import Properties from "./Properties";
 import AddProperty from "./AddProperty";
+import SavedProperty from "./SavedProperty";
 import "../styles/app.css";
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Properties userID={userID} />} />
         <Route path="/add_property" element={<AddProperty />} />
+        <Route path="/saved_property" element={<SavedProperty />} />
       </Routes>
     </div>
   );

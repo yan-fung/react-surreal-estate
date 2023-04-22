@@ -21,6 +21,11 @@ const NavBar = ({ onLogin, onLogout, userID }) => {
             Add Properties
           </Link>
         </li>
+        <li className="narbar-links-item">
+          <Link className="narbar-links__text" to="/saved_property">
+            Saved Property
+          </Link>
+        </li>
       </ul>
       {userID ? (
         <button className="sign-out-btn" type="button" onClick={onLogout}>
